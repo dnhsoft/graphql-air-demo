@@ -14,4 +14,4 @@ services:
         ports:
           - "8000:80"
         volumes:
-          - "./server:/var/www/html"
+          - "./importer:/var/www/html"
